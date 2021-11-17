@@ -1,0 +1,70 @@
+
+
+
+
+
+body{
+    background: rgb(99, 93, 93);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ h1{
+    font-size: 45px;
+    color: rgb(255, 15, 15);
+    
+
+   border: 5px solid rgb(47, 255, 5);
+  padding: 150px;
+
+   border-radius: 70%;
+   transition: 1.5s;
+
+   
+ 
+    
+}
+.span2{
+    transition: 4s;
+}
+h1:hover{
+    margin-top: 150px;
+  cursor: pointer;
+    color: tan;
+    transition: 1s;
+
+}
+.span2:hover{
+    margin-top: 150px;
+    cursor: pointer;
+      color: rgba(0, 255, 255, 0.281);
+      font-size: 70px;
+      box-shadow: 5px 6px 20px 7px;
+      transition: 1s;
+}
+h1 .span1{
+color: rgb(44, 190, 235);
+box-shadow:  0 0  0 0;
+box-shadow: 5px 6px 20px 7px;
+
+}
+h1 .span2{
+color: rgb(51, 255, 0);
+
+}
+h1 .span3{
+color: rgb(27, 23, 252);
+box-shadow: 7px 5px 20px 4px;
+
+}
+h1 .span4{
+color: rgb(255, 31, 255);
+
+}
+h1 span{
+    margin-right: 10px;
+}
